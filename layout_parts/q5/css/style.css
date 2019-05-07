@@ -3,3 +3,104 @@
 /* 回答はここに書いてね */
 
 /* 回答はここに書いてね */
+
+
+.p9 {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  width: 100px;
+  height: 100px;
+  background: #2b69a3;
+  vertical-align: middle;
+  line-height: 100px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.p1 {
+  background: #ffefd3;
+  top: 40px;
+  left: 200px;
+  z-index: 1;
+}
+
+.container {
+  width: 500px;
+  height: 500px;
+  position: relative;
+  margin: 0 auto;
+  background: #ECF1F2;
+  text-align: center;
+}
+
+.glid {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  vertical-align: middle;
+  line-height: 100px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.p2 {
+  background: #7084de;
+  top: 120px;
+  left: 280px;
+  z-index: 2;
+}
+
+.p3 {
+  background: #d0ecea;
+  top: 200px;
+  left: 360px;
+  z-index: 3;
+}
+
+.p4{
+  background: #8b7a5e;
+  top: 280px;
+  left: 280px;
+  z-index: 4;
+}
+
+.p5 {
+  background: #9fd6d2;
+  top: 360px;
+  left: 200px;
+  z-index: 5;
+}
+
+.p6 {
+  background: #fffee4;
+  top: 280px;
+  left: 120px;
+  z-index: 6;
+}
+
+.p7 {
+  background: #deae70;
+  top: 200px;
+  left: 40px;
+  z-index: 7;
+}
+
+.p8 {
+  background: #de70cf;
+  top: 120px;
+  left: 120px;
+  z-index: 8;
+}
+
+.p8::after {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: #ffefd3;
+  position: absolute;
+  left: 80px;
+  top: 0;
+}
+

@@ -1,5 +1,113 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.box {
+  font-size: 16px;
+}
+
+.float_left {
+  float: left;
+  width: 225px;
+
+}
+
+.float_right {
+  float: left;
+  width: 225px;
+}
+
+.clearfix::after {
+  content:"";
+  display: block;
+  clear: both;
+}
+
+.float {
+  margin-left: 50px;
+  box-sizing: border-box;
+}
+
+.float:first-child {
+  margin-left: 0;
+}
+
+
+
+
+
+.parent {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+
+.table {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+
+.txt {
+  display: inline-block;
+  width: 225px;
+  box-sizing: border-box;
+}
+
+.margin_left {
+  margin-left: 25px;
+}
+
+.inlineblock_child {
+  display: inline-block;
+  width: 225px;
+  box-sizing: border-box;
+  margin-left: 50px;
+  vertical-align: middle;
+  font-size: 16px;
+}
+
+.inlineblock_child:first-child {
+  margin-left: 0;
+}
+
+.inlineblock_parent {
+  font-size: 0;
+}
+
+
+.flex_child {
+  width: 225px;
+  box-sizing: border-box;
+  align-self: flex-end;
+}
+
+.flex_parent {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.inlineblockmargin_parent {
+  font-size: 0%;
+}
+
+.inlineblockmargin_child {
+  font-size: 16px;
+  vertical-align: top;
+}
+
+.inlineblockmargin_child:first-child {
+  display: inline-block;
+  width: 300px;
+  box-sizing: border-box;
+}
+
+.inlineblockmargin_child:last-child {
+  display: inline-block;
+  width: 100%;
+  margin-left: -300px;
+  padding-left: 350px;
+  box-sizing: border-box;
+}
 
 /* 回答はここに書いてね */

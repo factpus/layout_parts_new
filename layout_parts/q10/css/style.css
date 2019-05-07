@@ -2,4 +2,43 @@
 
 /* 回答はここに書いてね */
 
+.hukidasi {
+
+}
+
+.sikaku {
+    margin: 0 auto;
+    width: 500px;
+    border-radius: 30px;
+    border-color: #222;
+    border-width: 5px;
+    border-style: solid;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.sikaku::before {
+    position: absolute;
+    border-style: solid;
+    border-color: #222 transparent transparent transparent;
+    border-width: 25px;
+    content: "";
+    bottom: -50px;
+    left: 30px;
+}
+
+.sikaku::after {
+    position: absolute;
+    border-style: solid;
+    border-color: #ffffff transparent transparent transparent;
+    border-width: 25px;
+    content: "";
+    bottom: -43px;
+    left: 30px;
+}
+
+.text {
+    padding: 20px;
+}
+
 /* 回答はここに書いてね */

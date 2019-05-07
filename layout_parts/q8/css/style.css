@@ -1,5 +1,311 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.btn-square-little-rich {
+  font-size: 16px;
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  cursor: hand;
+  color: #fff;
+  margin: 0 0 0 15px;
+}
+
+.btn-square-little-rich:active {
+  box-shadow: none;
+  text-shadow: none;
+}
+
+.q8--btn {
+  text-align: center;
+}
+
+.common {
+  background: #00bcd4;
+}
+
+.error {
+  background: #ff4081;
+}
+
+.disabled {
+  background: #e5e5e5;
+}
+
+.shadow {
+  color: #222;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.12);
+}
+
+.small {
+  height: 26px;
+  padding: 0 15px;
+  border-radius: 3px;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.middle {
+  height: 32px;
+  padding: 0 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.large {
+  height: 38px;
+  padding: 0 25px;
+  border-radius: 7px;
+  font-size: 24px;
+  line-height: 38px;
+}
+/* 回答はここに書いてね */
+
+
+.form {
+    width: 700px;
+    padding: 20px;
+    background: #ECF1F2;
+    margin: 0 auto;
+
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    width: 300px;
+}
+
+.hidari {
+    padding: 0 0 20px 0;
+    text-align: right;
+}
+
+.hidari::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.taitoru {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.taitoru::before {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height:1px;
+    background-color: #ccc;
+    content: "";
+}
+
+.moji {
+    position: relative;
+    display: inline-block;
+    padding-right: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #ECF1F2;
+}
+
+
+
+.nama {
+    float: left;
+    vertical-align: middle;
+    display: inline-block;
+    text-align: right;
+    width: 100px;
+}
+
+.hitorimigi {
+    float: right;
+}
+
+input, button, textarea, select {
+    appearance: none;
+    -webkit-appearance: none;
+    margin: 0;
+    padding: 0;
+    background: none;
+    border: none;
+    border-radius: 0;
+    outline: none;
+}
+
+input[type="text"], input[type="email"] {
+    width: 180px;
+    padding: 5px;
+    height: 25px;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 3px;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+input[type="text"]:focus, input[type="email"]:focus {
+    box-shadow: 0 0 7px #00bcd4;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+.radio_text::before {
+    content: "";
+    width: 14px;
+    height: 14px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -8px;
+}
+
+input[type="radio"]:checked + .radio_text::after {
+    content: "";
+    width: 8px;
+    height: 8px;
+    background-color: #00BCD4;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 3px;
+    margin-top: -5px;
+}
+
+.radio_btn {
+    position: relative;
+}
+.radios {
+    width: 170px;
+    float: right;
+    text-align: left;
+}
+
+.radio_text {
+    position: relative;
+    display: inline-block;
+    padding: 3px 3px 3px 20px;
+}
+
+.checkbox_text::before {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ccc;
+    background-color: #fff;
+    border-radius: 1px;
+    width: 16px;
+    height: 16px;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 75px;
+    margin-top: -8px;
+}
+
+input[type="checkbox"]:checked + .checkbox_text::after {
+    border-bottom: solid #00bcd4 2px;
+    border-left: solid #00bcd4 2px;
+    content: "";
+    width: 16px;
+    height: 8px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 75px;
+    margin-top: -7px;
+    transform: rotate(-45deg);
+}
+
+.checkbox_text {
+    position: relative;
+    top: 50%;
+    display: inline-block;
+}
+
+.comment {
+    width: 380px;
+    height: 203px;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: #fff;
+    font-size: 12px;
+    resize: none;
+    box-sizing: border-box;
+}
+
+.select_hontai {
+    width: 60%;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: #fff;
+    font-size: 12px;
+    line-height: 12px;
+    box-sizing: border-box;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+}
+
+.select_warap {
+    position: relative;
+    height: 27px;
+}
+
+.select_warap::after {
+    position: absolute;
+    right: 10px;
+    top: 3px;
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-right: 2px solid #E5e5e5;
+    border-bottom: 2px solid #e5e5e5;
+    transform: rotate(45deg);
+    content: "";
+}
+
+.sousin {
+    background-color: #00bcd4;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 26px;
+    padding: 0 10px;
+    float: right;
+}
+
+.sousin:active {
+    background-color: #fff;
+    color: #00BCD4
+}
+
+.mizu {
+    color: #f00;
+}
+
+.nyuuryoku {
+
+}
+
+.hontais {
+    float: right;
+}
+
+
 
 /* 回答はここに書いてね */

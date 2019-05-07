@@ -3,3 +3,35 @@
 /* 回答はここに書いてね */
 
 /* 回答はここに書いてね */
+
+.food {
+  table-layout: fixed;
+  border: solid #dedede 1px;
+  text-align: center;
+  width: 100%;
+}
+
+.table_body tr:nth-child(even) {
+  background-color: #ecf1f2;
+}
+
+th, td {
+  border: solid 1px #dedede;
+  padding: 10px 0 10px 0;
+}
+
+th {
+  background-color: #2244aa;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+td {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.table_body tr:last-child {
+  border-top: dashed #000 2px;
+}

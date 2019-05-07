@@ -31,28 +31,28 @@
           <!-- すでについてるクラスにはstyleを指定しない。styleをつける場合は自分で新たにクラスをつけること -->
           <!-- 新たにタグは追加しなくてもできます。 -->
           <div class="q8 q8--btn">
-            <p class="q8__title">ー small ー</p>
-            <div>common</div>
-            <div>error</div>
-            <div>disabled</div>
-            <div>shadow</div>
-          </div>
-
-          <div class="q8 q8--btn">
-            <p class="q8__title">ー middle ー</p>
-            <div>common</div>
-            <div>error</div>
-            <div>disabled</div>
-            <div>shadow</div>
-          </div>
-
-          <div class="q8 q8--btn">
-            <p class="q8__title">ー large ー</p>
-            <div>common</div>
-            <div>error</div>
-            <div>disabled</div>
-            <div>shadow</div>
-          </div>
+              <p class="q8__title_1">ー small ー</p>
+              <div class="btn-square-little-rich common small">common</div>
+              <div class="btn-square-little-rich error small">error</div>
+              <div class="btn-square-little-rich disabled small">disabled</div>
+              <div class="btn-square-little-rich shadow small">shadow</div>
+            </div>
+  
+            <div class="q8 q8--btn">
+              <p class="q8__title">ー middle ー</p>
+              <div class="btn-square-little-rich common middle">common</div>
+              <div class="btn-square-little-rich error middle">error</div>
+              <div class="btn-square-little-rich disabled middle">disabled</div>
+              <div class="btn-square-little-rich shadow middle">shadow</div>
+            </div>
+  
+            <div class="q8 q8--btn">
+              <p class="q8__title">ー large ー</p>
+              <div class="btn-square-little-rich common large">common</div>
+              <div class="btn-square-little-rich error large">error</div>
+              <div class="btn-square-little-rich disabled large">disabled</div>
+              <div class="btn-square-little-rich shadow large">shadow</div>
+            </div>
           <!-- 回答はここに書いてね -->
         </div>
 
@@ -99,7 +99,65 @@
           <!-- 回答はここに書いてね -->
           <!-- すでについてるクラスにはstyleを指定しない。styleを付ける場合は自分で新たにクラスをつけること -->
           <div class="q8">
-            
+            <div class="outer">
+              <div class="inner">
+                <div class="form">
+                  <div class="taitoru">
+                    <p class="moji">Form Exercise</p>
+                  </div>
+                  <form action="#" method="GET" class="flex">
+                    <div class="left">
+                      <div class="hidari">
+                        <label class="nama hidari_hidari">
+                          名前
+                          <span class="mizu">*</span>
+                        </label>
+                        <input type="text" name="name" class="hontais" required></div>
+                      <div class="hidari">
+                        <div class="nama">
+                          <p class="sex">性別</p>
+                        </div>
+                        <div class="radios gontais">
+                          <label class="radio_btn"> 
+                            <input type="radio" name="seibetu" value="男">
+                            <span class="radio_text">男性</span>
+                          </label>
+                          <label class="radio_btn">
+                            <input type="radio" name="seibetu" value="女">
+                            <span class="radio_text">女性</span>
+                          </label>
+                        </div>
+                      </div>
+                      <div class="hidari select_warap">
+                        <p class="nama">出身</p>
+                        <select name="shussin" class="select_hontai hontais">
+                          <option value="東京"> 東京</option>
+                          <option value="埼玉">埼玉</option>
+                          <option value=" 千葉">千葉</option>
+                          <option value="神奈川">神奈川</option>
+                        </select>
+                      </div>
+                      <div class="hidari">
+                        <p class="nama">
+                          Eメール
+                          <span class="mizu">*</span>
+                        </p>
+                        <input placeholder="ex) hoge@gmail.com" type="email" name="email" class="nyuuryoku hontais" required>
+                      </div>
+                      <div class="hidari"><p class="nama">電話番号</p><input type="text" name="tel" class="hontais"></div>
+                      <div class="hidari">
+                        <label class="checkbox">
+                          <input type="checkbox" class="checkbox_hontai">
+                          <span class="checkbox_text">20歳以上</span>
+                        </label>
+                      </div>
+                      <input type="submit" value="送信" class="sousin">
+                    </div>
+                    <textarea name="comment" class="comment" placeholder="何かあれば入力してください。"></textarea>
+                  </form>
+                </div>
+              </div>
+            </div>
           </div>
           <!-- 回答はここに書いてね -->
         </div>
